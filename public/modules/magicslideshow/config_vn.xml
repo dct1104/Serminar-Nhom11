@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>magicslideshow</name>
+	<displayName><![CDATA[Magic Slideshow]]></displayName>
+	<version><![CDATA[5.5.17]]></version>
+	<description><![CDATA[Display one image after another. Fade or slide, fast or slow, text or just images. It&#039;s your choice!]]></description>
+	<author><![CDATA[Magic Toolbox]]></author>
+	<tab><![CDATA[Tools]]></tab>
+	<confirmUninstall><![CDATA[All magicslideshow settings would be deleted. Do you really want to uninstall this module ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

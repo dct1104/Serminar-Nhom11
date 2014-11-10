@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* You shouldn't touch this */
+.fast_confirm {
+	position: absolute;
+	
+	/* Position off-screen, show only when everything is ready */
+	top: -500px;
+	left: -500px;
+}
+
+/* You can configure this */
+.fast_confirm {
+	background-color: #fff;
+	font-size: 14px;
+	text-align: center;
+	padding: 6px;
+	
+	border: 1px solid #aaa;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.fast_confirm .fast_confirm_top {
+	width: 26px;
+	height: 13px;
+	background: url(img/fast_confirm_top.png);
+	position: absolute;
+	top: -11px;
+}
+
+.fast_confirm .fast_confirm_right {
+	width: 13px;
+	height: 26px;
+	background: url(img/fast_confirm_right.png);
+	position: absolute;
+	right: -11px;
+}
+
+.fast_confirm .fast_confirm_bottom {
+	width: 26px;
+	height: 13px;
+	background: url(img/fast_confirm_bottom.png);
+	position: absolute;
+	bottom: -11px;
+}
+
+.fast_confirm .fast_confirm_left {
+	width: 13px;
+	height: 26px;
+	background: url(img/fast_confirm_left.png);
+	position: absolute;
+	left: -11px;
+}

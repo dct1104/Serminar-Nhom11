@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `PREFIX_product_videos` (  `id` int(10)  NOT NULL AUTO_INCREMENT,   `product_id` VARCHAR(10) ,   `product_name` VARCHAR(255) ,   `video` VARCHAR(1000) ,  PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8;
